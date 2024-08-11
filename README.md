@@ -1,1 +1,1 @@
-# Mobile-c-digo-QR
+# Mobile-codigo-QR
