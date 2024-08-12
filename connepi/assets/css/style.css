@@ -1,0 +1,69 @@
+body {
+    background-color: #f0f0f0;
+    margin: 0;
+    margin-right: 0;
+}
+.container_header {
+    margin-bottom: 1rem;
+}
+
+img {
+    width: 95.5rem;
+}
+
+.container_main {
+   padding: 1rem;
+   text-align: center;
+   display: flex;
+   /* flex-wrap: wrap; */
+   flex-direction: column;
+   justify-content: center ;
+   gap: 10px;
+   padding: 20px;
+}
+
+.conn_videos {
+    background-color: #6c0d3a;
+    border: 2px solid #6c0d3a;
+    border-radius: 10px;
+    padding: 1rem;
+    flex: 1 1 30%;
+    margin-bottom: 10px;
+
+    cursor: pointer;   
+}
+
+.conn_videos .botao {
+    border: none;
+    background-color: #490827;
+    border-radius: 10px;
+    font-family: "Chakra Petch", sans-serif;
+    color: #f0f0f0;
+    padding: 0.4rem;
+    margin-bottom: 0.5rem;
+}
+
+.conn_videos > video {
+    display: none;
+}
+
+.conn_videos span {
+    display: block;
+    margin-bottom: 2px; 
+    font-size: 20px;
+    font-weight: 900;
+    color: #f0f0f0;
+    font-family: "Chakra Petch", sans-serif;
+}
+
+video {
+    width: 100%;
+    
+}
+
+@media (max-width: 412px) {
+    img {
+        width: 24rem;
+    }
+
+}
